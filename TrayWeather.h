@@ -1,0 +1,314 @@
+/*
+ File: TrayWeather.h
+ Created on: 13/11/2016
+ Author: Felix de las Pozas Alvarez
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#ifndef TRAYWEATHER_H_
+#define TRAYWEATHER_H_
+
+// Project
+#include <Utils.h>
+#include <dialogs/ConfigurationDialog.h>
+#include <dialogs/WeatherDialog.h>
+#include <Provider.h>
+
+// Qt
+#include <QSystemTrayIcon>
+#include <QTimer>
+#include <QTranslator>
+#include <QAbstractNativeEventFilter>
+#include <QMessageBox>
+#include <QPointer>
+
+class QNetworkReply;
+class QNetworkAccessManager;
+class AboutDialog;
+class TrayWeather;
+
+/** \class NativeEventFilter
+ * \brief Filters the events from windows to catch the one for 'wake up' signal.
+ *
+ */
+class NativeEventFilter
+: public QAbstractNativeEventFilter
+{
+  public:
+    /** \brief NativeEventFilter class constructor.
+     * \param[in] tw TrayWeather application pointer.
+     *
+     */
+    explicit NativeEventFilter(TrayWeather *tw)
+    : QAbstractNativeEventFilter()
+    , m_tw{tw}
+    {};
+
+    /** \brief NativeEventFilter class virtual destructor.
+     *
+     */
+    virtual ~NativeEventFilter()
+    {};
+
+    virtual bool nativeEventFilter(const QByteArray &eventType, void *message, qintptr *result) override;
+  private:
+    TrayWeather *m_tw; /** tray weather application reference. */
+};
+
+/** \class TrayWeather
+ * \brief Implements the tray icon and application logic.
+ *
+ */
+class TrayWeather
+: public QSystemTrayIcon
+{
+    Q_OBJECT
+  public:
+    /** \brief TrayWeather class constructor.
+     * \param[in] configuration application configuration values, assumed to be valid.
+     * \param[in] parent pointer to the object parent of this one.
+     *
+     */
+    TrayWeather(Configuration &configuration, QObject *parent = nullptr);
+
+    /** \brief TrayWeather class virtual destructor.
+     *
+     */
+    virtual ~TrayWeather();
+
+  private slots:
+    /** \brief Handles network replies.
+     * \param[in] reply network reply object pointer.
+     *
+     */
+    void replyFinished(QNetworkReply *reply);
+
+    /** \brief Exits the application.
+     *
+     */
+    void exitApplication();
+
+    /** \brief Shows the "About" dialog.
+     *
+     */
+    void showAboutDialog();
+
+    /** \brief Shows a tab depending on the caller.
+     *
+     */
+    void showTab();
+
+    /** \brief Show the current weather widget next to the tray.
+     *
+     */
+    void showCurrentWeatherWidget();
+
+    /** \brief Shows the configuration dialog.
+     *
+     */
+    void showConfiguration();
+
+    /** \brief Handles icon activation.
+     * \param[in] reason activation reason.
+     *
+     */
+    void onActivation(QSystemTrayIcon::ActivationReason reason);
+
+    /** \brief Makes a network request for weather forecast data or geolocation.
+     *
+     */
+    void requestData();
+
+    /** \brief Updates the tray icon context menu with the state of the maps.
+     * \param[in] value true if maps enabled and false otherwise.
+     *
+     */
+    void onMapsStateChanged(bool value);
+
+    /** \brief Changes the application language to the one specified.
+     * \param[in] lang Language id.
+     *
+     */
+    void onLanguageChanged(const QString &lang);
+
+    /** \brief Creates or raises the alert dialog.
+     *
+     */
+    void showAlert();
+
+    /** \brief Invalidates all weather data and asks for new data.
+     *
+     */
+    void forceRequestData();
+
+    /** \brief Gets weather and forecast data from the provider and updates the interface.
+     *
+     */
+    void processWeatherData();
+
+    /** \brief Gets the pollution forecast and updates the interface.
+     *
+     */
+    void processPollutionData();
+
+    /** \brief Gets the UV forecast and updates the interface.
+     *
+     */
+    void processUVData();
+
+    /** \brief Fills the alert list with the latest alert.
+     * \param[in] alerts Weather alerts list. 
+     *
+     */
+    void processAlerts(const Alerts &alerts);
+
+    /** \brief Sets an error message in the tooltip text. 
+     *
+     */
+    void setErrorTooltip(const QString &msg);
+
+    /** \brief Modifies the menu entry as seen.
+     *
+     */
+    void onAlertsSeen();
+
+  private:
+    /** \brief Updates the tray icon tooltip.
+     *
+     */
+    void updateTooltip();
+
+    /** \brief Returns the tray icon tooltip text according to current configuration.
+     *
+     */
+    QString tooltipText() const;
+
+    /** \brief Helper method to connect all the signals and slots.
+     *
+     */
+    void connectSignals();
+
+    /** \brief Helper method to connect all the signals of the provider to the slots. 
+     *
+     */
+    void connectProviderSignals();
+
+    /** \brief Helper method to disconnect all the signals and slots.
+     *
+     */
+    void disconnectSignals();
+
+    /** \brief Helper method to disconnect all the signals of the provider from the slots. 
+     *
+     */
+    void disconnectProviderSignals();
+
+    /** \brief Creates the tray icon menu.
+     *
+     */
+    void createMenuEntries();
+
+    /** \brief Returns true if the data is valid.
+     *
+     */
+    bool validData() const;
+
+    /** \brief Request geolocation information, can ask for DNS IP first if enabled on configuration.
+     *
+     */
+    void requestGeolocation();
+
+    /** \brief Request weather data from network.
+     *
+     */
+    void requestForecastData();
+
+    /** \brief Helper method that checks for application updates.
+     *
+     */
+    void checkForUpdates();
+
+    /** \brief Updates the context menu translations.
+     *
+     */
+    void translateMenu();
+
+    /** \brief Parses Gihub reply data.
+     * \param[in] data Github reply data.
+     *
+     */
+    void processGithubData(const QByteArray &data);
+
+    /** \brief Parses geo-location data.
+     * \param[in] data Geo-location data in CSV.
+     *
+     */
+    void processGeolocationData(const QByteArray &data, const bool isDNS);
+
+    /** \brief Updates, if needed, the network manager to use by the application and providers. 
+    *
+    */
+    void updateNetworkManager();
+
+    /** \brief Modifies the context menu actions based on the capabilities of the current weather provider.
+     *
+     */
+    void updateMenuActions();
+
+    /** \brief Removes the expired alerts from the Alerts list. 
+     */
+    void removeExpiredAlerts();
+
+    /** \brief Shows a message dialog.
+     * \param[in] icon Dialog icon.
+     * \param[in] msg Message to show.
+     * \param[in] details Message details, optional.
+     */
+    void showMessageBox(const QMessageBox::Icon &icon, const QString &msg, const QString &details = QString(), const QString &title = "TrayWeather");
+
+    /** \brief Starts the download of the given url.
+     * \param url File to download.
+     */
+    void startFileDownload(const QUrl &url);
+
+    /** \brief Processes the finish of the download of a file. 
+     * \param[in] data Contents of the downloaded file.
+     *
+     */
+    void finishedDownload(const QByteArray &data);
+
+    Configuration                         &m_configuration;   /** application configuration.                                        */
+    std::shared_ptr<QNetworkAccessManager> m_netManager;      /** network manager.                                                  */
+    Forecast                               m_data;            /** list of forecast data.                                            */
+    ForecastData                           m_current;         /** weather conditions now.                                           */
+    Pollution                              m_pData;           /** list pollution data.                                              */
+    UV                                     m_vData;           /** list of uv data.                                                  */
+    QTimer                                 m_timer;           /** timer for updates and retries.                                    */
+    QTimer                                 m_dblClick;        /** disambiguation from Trigger and DoubleClick (see onActivation()). */
+	WeatherDialog               		  *m_weatherDialog;   /** dialog to show weather and forecast data.                         */ 
+    AboutDialog                           *m_aboutDialog;     /** pointer to current (if any) about dialog.                         */
+    ConfigurationDialog                   *m_configDialog;    /** pointer to current (if any) configuration dialog.                 */
+    QString                                m_DNSIP;           /** DNS IP used for geolocation.                                      */
+    QTimer                                 m_updatesTimer;    /** timer to check for application updates.                           */
+    QSystemTrayIcon                       *m_additionalTray;  /** Additional tray icon for two icon mode.                           */
+    NativeEventFilter                      m_eventFilter;     /** Windows OS event filter.                                          */
+    Alerts                                 m_alerts;          /** Last shown alert.                                                 */
+    std::shared_ptr<WeatherProvider>       m_provider;        /** Weather data provider                                             */
+
+    friend class NativeEventFilter;
+};
+
+
+#endif // TRAYWEATHER_H_

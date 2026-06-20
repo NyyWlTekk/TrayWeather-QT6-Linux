@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_TrayWeather_FILE /home/lucasso/GitHub/TrayWeather/build/TrayWeather)
+set(__QT_DEPLOY_TARGET_TrayWeather_TYPE EXECUTABLE)

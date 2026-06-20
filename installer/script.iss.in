@@ -1,0 +1,51 @@
+; Mingw64 Distribution Inno Setup File
+
+[Setup]
+AppName=Tray Weather
+AppVersion=@TRAYWEATHER_VERSION_MAJOR@.@TRAYWEATHER_VERSION_MINOR@.@TRAYWEATHER_VERSION_PATCH@
+DefaultDirName={commonpf64}\Tray Weather
+DefaultGroupName=Tray Weather
+OutputDir=@PROJECT_BINARY_DIR@
+AppComments=Tray Weather
+AppContact=Felix de las Pozas Alvarez
+AppCopyright=(c)2017-@CURRENT_YEAR@ Felix de las Pozas Alvarez
+AppPublisher=Felix de las Pozas Alvarez
+ArchitecturesAllowed=x64
+Compression=lzma2/ultra64
+CreateUninstallRegKey=yes
+Uninstallable=yes
+ChangesAssociations=no
+CloseApplications=no
+RestartApplications=no
+UninstallDisplayIcon={app}/TrayWeather.exe
+UninstallDisplayName=Tray Weather v@TRAYWEATHER_VERSION_MAJOR@.@TRAYWEATHER_VERSION_MINOR@.@TRAYWEATHER_VERSION_PATCH@
+SourceDir=@PROJECT_BINARY_DIR@
+SetupIconFile=@CMAKE_SOURCE_DIR@/rsc/application.ico
+OutputBaseFilename=TrayWeather_v@TRAYWEATHER_VERSION_MAJOR@.@TRAYWEATHER_VERSION_MINOR@.@TRAYWEATHER_VERSION_PATCH@_Setup
+DisableWelcomePage=no
+WizardImageFile=@CMAKE_SOURCE_DIR@/installer/image.bmp
+WizardSmallImageFile=@CMAKE_SOURCE_DIR@/installer/smallimage.bmp
+
+[Files]
+Source: "TrayWeather.exe"; DestDir: "{app}"; Flags: ignoreversion; BeforeInstall: TaskKill('TrayWeather.exe')
+Source: "*.dll"; DestDir: "{app}";
+Source: "bearer/*.*"; DestDir: "{app}/bearer/";
+Source: "iconengines/*.*"; DestDir: "{app}/iconengines/";
+Source: "imageformats/*.*"; DestDir: "{app}/imageformats/";
+Source: "platforms/*.*"; DestDir: "{app}/platforms/";
+Source: "qt.conf"; DestDir: "{app}"; 
+
+[Code]
+procedure TaskKill(fileName: String);
+var
+    resultCode: Integer;
+begin
+    Exec(ExpandConstant('{sys}\taskkill.exe'), '/f /im ' + '"' + fileName + '"', '', SW_HIDE, ewWaitUntilTerminated, resultCode);
+end;
+
+[Icons]
+Name: "{group}\Tray Weather"; Filename: "{app}\TrayWeather.exe"; WorkingDir: "{app}"
+Name: "{group}\Uninstall Tray Weather"; Filename: "{uninstallexe}"
+
+[Run]
+Filename: "{app}\TrayWeather.exe"; Description: "Launch Tray Weather"; Flags: postinstall nowait skipifsilent
