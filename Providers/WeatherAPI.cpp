@@ -202,9 +202,9 @@ void WeatherAPIProvider::processWeatherData(const QByteArray &contents)
       const auto forecast = jsonObj.value("forecast").toObject();
       const auto days = forecast.value("forecastday").toArray();
 
-      auto hasForecastEntry = [this](unsigned long dt) { for(auto entry: this->m_forecast) if(entry.dt == dt) return true; return false; };
-      auto hasUVEntry = [this](unsigned long dt) { for(auto entry: this->m_uv) if(entry.dt == dt) return true; return false; };
-      auto hasPollutionEntry = [this](unsigned long dt) { for(auto entry: this->m_pollution) if(entry.dt == dt) return true; return false; };
+      auto hasForecastEntry = [this](long long dt) { for(auto entry: this->m_forecast) if(entry.dt == dt) return true; return false; };
+      auto hasUVEntry = [this](long long dt) { for(auto entry: this->m_uv) if(entry.dt == dt) return true; return false; };
+      auto hasPollutionEntry = [this](long long dt) { for(auto entry: this->m_pollution) if(entry.dt == dt) return true; return false; };
 
       for(auto i = 0; i < days.count(); ++i)
       {

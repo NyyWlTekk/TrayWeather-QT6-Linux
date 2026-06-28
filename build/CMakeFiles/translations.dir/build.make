@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucasso/GitHub/TrayWeather
+CMAKE_SOURCE_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucasso/GitHub/TrayWeather/build
+CMAKE_BINARY_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build
 
 # Utility rule file for translations.
 
@@ -80,57 +80,57 @@ CMakeFiles/translations: tr_TR.qm
 CMakeFiles/translations: it_IT.qm
 CMakeFiles/translations: hu_HU.qm
 
-de_DE.qm: /home/lucasso/GitHub/TrayWeather/languages/de_DE.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating de_DE.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/de_DE.ts -qm /home/lucasso/GitHub/TrayWeather/build/de_DE.qm
+de_DE.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/de_DE.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating de_DE.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/de_DE.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/de_DE.qm
 
-es_ES.qm: /home/lucasso/GitHub/TrayWeather/languages/es_ES.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating es_ES.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/es_ES.ts -qm /home/lucasso/GitHub/TrayWeather/build/es_ES.qm
+es_ES.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/es_ES.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating es_ES.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/es_ES.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/es_ES.qm
 
-fr_FR.qm: /home/lucasso/GitHub/TrayWeather/languages/fr_FR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating fr_FR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/fr_FR.ts -qm /home/lucasso/GitHub/TrayWeather/build/fr_FR.qm
+fr_FR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/fr_FR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating fr_FR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/fr_FR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/fr_FR.qm
 
-hu_HU.qm: /home/lucasso/GitHub/TrayWeather/languages/hu_HU.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating hu_HU.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/hu_HU.ts -qm /home/lucasso/GitHub/TrayWeather/build/hu_HU.qm
+hu_HU.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/hu_HU.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating hu_HU.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/hu_HU.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/hu_HU.qm
 
-it_IT.qm: /home/lucasso/GitHub/TrayWeather/languages/it_IT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating it_IT.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/it_IT.ts -qm /home/lucasso/GitHub/TrayWeather/build/it_IT.qm
+it_IT.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/it_IT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating it_IT.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/it_IT.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/it_IT.qm
 
-ko_KR.qm: /home/lucasso/GitHub/TrayWeather/languages/ko_KR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ko_KR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/ko_KR.ts -qm /home/lucasso/GitHub/TrayWeather/build/ko_KR.qm
+ko_KR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ko_KR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ko_KR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ko_KR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ko_KR.qm
 
-pl_PL.qm: /home/lucasso/GitHub/TrayWeather/languages/pl_PL.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating pl_PL.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/pl_PL.ts -qm /home/lucasso/GitHub/TrayWeather/build/pl_PL.qm
+pl_PL.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pl_PL.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating pl_PL.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pl_PL.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/pl_PL.qm
 
-pt_BR.qm: /home/lucasso/GitHub/TrayWeather/languages/pt_BR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating pt_BR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/pt_BR.ts -qm /home/lucasso/GitHub/TrayWeather/build/pt_BR.qm
+pt_BR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pt_BR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating pt_BR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pt_BR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/pt_BR.qm
 
-ru_RU.qm: /home/lucasso/GitHub/TrayWeather/languages/ru_RU.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ru_RU.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/ru_RU.ts -qm /home/lucasso/GitHub/TrayWeather/build/ru_RU.qm
+ru_RU.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ru_RU.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ru_RU.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ru_RU.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ru_RU.qm
 
-sl_SI.qm: /home/lucasso/GitHub/TrayWeather/languages/sl_SI.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating sl_SI.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/sl_SI.ts -qm /home/lucasso/GitHub/TrayWeather/build/sl_SI.qm
+sl_SI.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/sl_SI.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating sl_SI.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/sl_SI.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/sl_SI.qm
 
-tr_TR.qm: /home/lucasso/GitHub/TrayWeather/languages/tr_TR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating tr_TR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/tr_TR.ts -qm /home/lucasso/GitHub/TrayWeather/build/tr_TR.qm
+tr_TR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/tr_TR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating tr_TR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/tr_TR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/tr_TR.qm
 
-uk_UA.qm: /home/lucasso/GitHub/TrayWeather/languages/uk_UA.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating uk_UA.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/uk_UA.ts -qm /home/lucasso/GitHub/TrayWeather/build/uk_UA.qm
+uk_UA.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/uk_UA.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating uk_UA.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/uk_UA.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/uk_UA.qm
 
-zh_CN.qm: /home/lucasso/GitHub/TrayWeather/languages/zh_CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating zh_CN.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/zh_CN.ts -qm /home/lucasso/GitHub/TrayWeather/build/zh_CN.qm
+zh_CN.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating zh_CN.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/zh_CN.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/zh_CN.qm
 
 CMakeFiles/translations.dir/codegen:
 .PHONY : CMakeFiles/translations.dir/codegen
@@ -161,6 +161,6 @@ CMakeFiles/translations.dir/clean:
 .PHONY : CMakeFiles/translations.dir/clean
 
 CMakeFiles/translations.dir/depend:
-	cd /home/lucasso/GitHub/TrayWeather/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build/CMakeFiles/translations.dir/DependInfo.cmake "--color=$(COLOR)" translations
+	cd /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/translations.dir/DependInfo.cmake "--color=$(COLOR)" translations
 .PHONY : CMakeFiles/translations.dir/depend
 

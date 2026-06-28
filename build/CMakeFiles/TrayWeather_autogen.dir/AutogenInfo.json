@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen",
-	"CMAKE_BINARY_DIR" : "/home/lucasso/GitHub/TrayWeather/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/lucasso/GitHub/TrayWeather/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lucasso/GitHub/TrayWeather",
+	"BUILD_DIR" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/lucasso/GitHub/TrayWeather/CMakeLists.txt",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/CMakeLists.txt",
 		"/usr/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeSystem.cmake.in",
-		"/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/4.3.3/CMakeSystem.cmake",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/4.3.4/CMakeSystem.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-4.3/Modules/Platform/Linux-Initialize.cmake",
@@ -67,7 +67,7 @@
 		"/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in",
-		"/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/4.3.3/CMakeCCompiler.cmake",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/4.3.4/CMakeCCompiler.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake",
 		"/usr/share/cmake-4.3/Modules/Platform/Linux-Determine-CXX.cmake",
@@ -120,7 +120,7 @@
 		"/usr/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/4.3.3/CMakeCXXCompiler.cmake",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/4.3.4/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake",
@@ -146,7 +146,7 @@
 		"/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in",
-		"/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/4.3.3/CMakeCCompiler.cmake",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/4.3.4/CMakeCCompiler.cmake",
 		"/usr/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake",
 		"/usr/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/share/cmake-4.3/Modules/Linker/GNU-C.cmake",
@@ -175,7 +175,7 @@
 		"/usr/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/4.3.3/CMakeCXXCompiler.cmake",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/4.3.4/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/usr/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/share/cmake-4.3/Modules/Linker/GNU-CXX.cmake",
@@ -582,117 +582,117 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
 		"/usr/share/cmake-4.3/Modules/CMakeParseArguments.cmake",
-		"/home/lucasso/GitHub/TrayWeather/languages/translations.qrc",
-		"/home/lucasso/GitHub/TrayWeather/rsc/resources.qrc",
-		"/home/lucasso/GitHub/TrayWeather/rsc/darktheme/style.qrc",
-		"/home/lucasso/GitHub/TrayWeather/build/translations.qrc"
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/translations.qrc",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/resources.qrc",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/style.qrc",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/translations.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/lucasso/GitHub/TrayWeather",
+	"CMAKE_SOURCE_DIR" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/deps",
+	"DEP_FILE" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "TrayWeather_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/lucasso/GitHub/TrayWeather/Provider.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.h",
 			"Mu",
 			"EWIEGA46WW/moc_Provider.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Providers/OWM25.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.h",
 			"Mu",
 			"3FYSULA62X/moc_OWM25.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Providers/OWM30.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM30.h",
 			"Mu",
 			"3FYSULA62X/moc_OWM30.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Providers/OpenMeteo.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OpenMeteo.h",
 			"Mu",
 			"3FYSULA62X/moc_OpenMeteo.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Providers/WeatherAPI.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/WeatherAPI.h",
 			"Mu",
 			"3FYSULA62X/moc_WeatherAPI.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/TrayWeather.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.h",
 			"Mu",
 			"EWIEGA46WW/moc_TrayWeather.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Utils.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.h",
 			"Mu",
 			"EWIEGA46WW/moc_Utils.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.h",
 			"Mu",
 			"2NRMJ5X7RK/moc_AboutDialog.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.h",
 			"Mu",
 			"2NRMJ5X7RK/moc_ConfigurationDialog.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.h",
 			"Mu",
 			"2NRMJ5X7RK/moc_LocationFinderDialog.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.h",
 			"Mu",
 			"2NRMJ5X7RK/moc_WeatherDialog.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.h",
 			"Mu",
 			"IMAN36LHMA/moc_AlertsWidget.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.h",
 			"Mu",
 			"IMAN36LHMA/moc_CurrentWeatherWidget.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.h",
 			"Mu",
 			"IMAN36LHMA/moc_PollutionWidget.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/UVWidget.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.h",
 			"Mu",
 			"IMAN36LHMA/moc_UVWidget.cpp",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.h",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.h",
 			"Mu",
 			"IMAN36LHMA/moc_WeatherWidget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"ERROR_SUCCESS=0",
@@ -728,9 +728,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/lucasso/GitHub/TrayWeather/build",
-		"/home/lucasso/GitHub/TrayWeather",
-		"/home/lucasso/GitHub/TrayWeather/fake_win",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/fake_win",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCharts",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
@@ -776,88 +776,116 @@
 		"-E",
 		"/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/lucasso/GitHub/TrayWeather/build/qrc_resources.cpp",
-		"/home/lucasso/GitHub/TrayWeather/build/qrc_style.cpp",
-		"/home/lucasso/GitHub/TrayWeather/build/qrc_translations.cpp",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_AboutDialog.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_AlertsWidget.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_ConfigurationDialog.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_CurrentWeatherWidget.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_ErrorWidget.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_LocationFinderDialog.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_PollutionWidget.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_UVWidget.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_WeatherDialog.h",
-		"/home/lucasso/GitHub/TrayWeather/build/ui_WeatherWidget.h"
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_resources.cpp",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_style.cpp",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_translations.cpp",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_AboutDialog.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_AlertsWidget.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ConfigurationDialog.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_CurrentWeatherWidget.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ErrorWidget.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_LocationFinderDialog.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_PollutionWidget.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_UVWidget.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherDialog.h",
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherWidget.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/lucasso/GitHub/TrayWeather/Main.cpp", "Mu", null ],
-		[ "/home/lucasso/GitHub/TrayWeather/Provider.cpp", "Mu", null ],
-		[ "/home/lucasso/GitHub/TrayWeather/Providers/OWM25.cpp", "Mu", null ],
-		[ "/home/lucasso/GitHub/TrayWeather/Providers/OWM30.cpp", "Mu", null ],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Providers/OpenMeteo.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Main.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/Providers/WeatherAPI.cpp",
-			"Mu",
-			null
-		],
-		[ "/home/lucasso/GitHub/TrayWeather/TrayWeather.cpp", "Mu", null ],
-		[ "/home/lucasso/GitHub/TrayWeather/Utils.cpp", "Mu", null ],
-		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM30.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OpenMeteo.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/WeatherAPI.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.cpp",
 			"Mu",
 			null
 		],
-		[ "/home/lucasso/GitHub/TrayWeather/widgets/UVWidget.cpp", "Mu", null ],
 		[
-			"/home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.cpp",
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.cpp",
 			"Mu",
 			null
 		]

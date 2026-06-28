@@ -4,7 +4,6 @@
 set -e
 
 echo "=== 1. Instalace kompletních závislostí a Qt6 modulů (Debian Sid) ==="
-sudo apt update
 sudo apt install -y \
     build-essential \
     cmake \
@@ -14,7 +13,8 @@ sudo apt install -y \
     qt6-svg-dev \
     qt6-l10n-tools \
     qt6-translations-l10n \
-    libgl1-mesa-dev
+    libgl1-mesa-dev \
+    checkinstall
 
 echo "=== 2. Čištění starého buildu ==="
 if [ -d "build" ]; then
@@ -36,3 +36,4 @@ echo "========================================="
 echo " Kompilace úspěšně dokončena! "
 echo " Spustitelný binární soubor najdeš v build/TrayWeather"
 echo "========================================="
+sudo checkinstall --install=no --pkgname=trayweather --pkgversion=1.37.2 --maintainer=lucasso --backup=no

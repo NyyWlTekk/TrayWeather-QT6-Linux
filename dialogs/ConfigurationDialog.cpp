@@ -670,8 +670,11 @@ void ConfigurationDialog::onThemeIndexChanged(int index)
 
   if(index != 0)
   {
-    QFile file(":qdarkstyle/style.qss");
-    file.open(QFile::ReadOnly | QFile::Text);
+		QFile file(":qdarkstyle/style.qss");
+		if (!file.open(QFile::ReadOnly | QFile::Text)) {
+			qWarning() << "Could not open file!";
+			return; 
+		}
     QTextStream ts(&file);
     sheet = ts.readAll();
   }
@@ -809,7 +812,7 @@ void ConfigurationDialog::changeEvent(QEvent *e)
     if(!backup.lightTheme)
     {
       QFile file(":qdarkstyle/style.qss");
-      file.open(QFile::ReadOnly | QFile::Text);
+      (void)file.open(QFile::ReadOnly | QFile::Text);
       QTextStream ts(&file);
       sheet = ts.readAll();
     }

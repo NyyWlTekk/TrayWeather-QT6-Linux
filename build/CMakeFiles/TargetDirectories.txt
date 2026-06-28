@@ -1,6 +1,6 @@
-/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/translations.dir
-/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather.dir
-/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/edit_cache.dir
-/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/rebuild_cache.dir
-/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen_timestamp_deps.dir
-/home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen.dir
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/translations.dir
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather.dir
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/edit_cache.dir
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/rebuild_cache.dir
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen_timestamp_deps.dir
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir

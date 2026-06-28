@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucasso/GitHub/TrayWeather
+CMAKE_SOURCE_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucasso/GitHub/TrayWeather/build
+CMAKE_BINARY_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TrayWeather.dir/depend.make
@@ -69,389 +69,389 @@ include CMakeFiles/TrayWeather.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TrayWeather.dir/flags.make
 
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/resources.qrc
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/application.ico
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/application.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/Qt.ico
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/exit.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/information.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/settings.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/temp-celsius.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/temp-fahrenheit.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/network_error.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/network_refresh.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/network_refresh_black.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/alert.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/up.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/down.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/add.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/remove.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/yes-check.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/no-cross.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/download.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/webpage25.html
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/webpage30.html
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/support_me_on_kofi_dark.png
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/support_me_on_kofi_beige.png
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/kofi_logo.png
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/en.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/es.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/ru.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/de.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/fr.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/cn.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/br.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/uk.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/sl.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/kr.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/pl.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/tr.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/it.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/languages/hu.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-0.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-1.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-2.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-3.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-4.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-5.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-6.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/01n-7.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/02d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/02n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/03d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/03n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/04d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/04n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/09d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/09n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/10d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/10n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/11d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/11n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/13d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/13n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/50d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon/50n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-0.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-1.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-2.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-3.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-4.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-5.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-6.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/01n-7.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/02d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/02n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/03d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/03n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/04d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/04n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/09d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/09n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/10d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/10n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/11d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/11n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/13d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/13n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/50d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/flaticon_mono/50n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-0.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-1.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-2.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-3.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-4.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-5.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-6.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/01n-7.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/02d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/02n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/03d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/03n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/04d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/04n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/09d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/09n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/10d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/10n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/11d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/11n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/13d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/13n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/50d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/tempestacons/50n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-0.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-1.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-2.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-3.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-4.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-5.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-6.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/01n-7.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/02d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/02n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/03d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/03n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/04d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/04n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/09d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/09n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/10d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/10n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/11d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/11n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/13d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/13n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/50d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/meteocons/50n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-0.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-1.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-2.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-3.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-4.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-5.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-6.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/01n-7.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/02d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/02n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/03d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/03n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/04d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/04n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/09d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/09n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/10d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/10n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/11d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/11n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/13d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/13n.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/50d.svg
-qrc_resources.cpp: /home/lucasso/GitHub/TrayWeather/rsc/iconThemes/climacons/50n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/resources.qrc
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/application.ico
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/application.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/Qt.ico
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/exit.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/information.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/settings.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/temp-celsius.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/temp-fahrenheit.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/network_error.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/network_refresh.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/network_refresh_black.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/alert.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/up.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/down.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/add.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/remove.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/yes-check.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/no-cross.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/download.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/webpage25.html
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/webpage30.html
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/support_me_on_kofi_dark.png
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/support_me_on_kofi_beige.png
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/kofi_logo.png
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/en.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/es.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/ru.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/de.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/fr.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/cn.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/br.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/uk.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/sl.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/kr.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/pl.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/tr.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/it.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/languages/hu.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-0.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-1.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-2.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-3.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-4.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-5.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-6.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/01n-7.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/02d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/02n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/03d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/03n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/04d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/04n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/09d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/09n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/10d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/10n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/11d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/11n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/13d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/13n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/50d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon/50n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-0.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-1.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-2.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-3.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-4.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-5.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-6.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/01n-7.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/02d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/02n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/03d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/03n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/04d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/04n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/09d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/09n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/10d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/10n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/11d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/11n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/13d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/13n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/50d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/flaticon_mono/50n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-0.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-1.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-2.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-3.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-4.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-5.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-6.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/01n-7.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/02d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/02n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/03d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/03n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/04d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/04n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/09d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/09n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/10d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/10n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/11d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/11n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/13d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/13n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/50d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/tempestacons/50n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-0.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-1.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-2.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-3.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-4.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-5.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-6.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/01n-7.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/02d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/02n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/03d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/03n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/04d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/04n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/09d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/09n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/10d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/10n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/11d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/11n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/13d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/13n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/50d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/meteocons/50n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-0.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-1.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-2.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-3.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-4.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-5.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-6.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/01n-7.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/02d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/02n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/03d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/03n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/04d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/04n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/09d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/09n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/10d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/10n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/11d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/11n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/13d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/13n.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/50d.svg
+qrc_resources.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/iconThemes/climacons/50n.svg
 qrc_resources.cpp: rsc/resources.qrc.depends
 qrc_resources.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_resources.cpp"
-	/usr/lib/qt6/libexec/rcc --name resources --output /home/lucasso/GitHub/TrayWeather/build/qrc_resources.cpp /home/lucasso/GitHub/TrayWeather/rsc/resources.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_resources.cpp"
+	/usr/lib/qt6/libexec/rcc --name resources --output /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_resources.cpp /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/resources.qrc
 
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/style.qrc
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_down_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_left_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_right_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/arrow_up_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/base_icon_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_closed_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_end_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_line_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_more_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/branch_open_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_checked_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_indeterminate_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/checkbox_unchecked_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_horizontal_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/line_vertical_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_checked_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/radio_unchecked_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_horizontal_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_move_vertical_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_horizontal_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/toolbar_separator_vertical_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/transparent_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_close_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_grip_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_minimize_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock_disabled.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock_disabled@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock_focus.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock_focus@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock_pressed.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/rc/window_undock_pressed@2x.png
-qrc_style.cpp: /home/lucasso/GitHub/TrayWeather/rsc/darktheme/style.qss
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/style.qrc
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_down_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_left_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_right_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/arrow_up_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/base_icon_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_closed_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_end_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_line_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_more_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/branch_open_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_checked_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_indeterminate_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/checkbox_unchecked_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_horizontal_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/line_vertical_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_checked_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/radio_unchecked_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_horizontal_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_move_vertical_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_horizontal_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/toolbar_separator_vertical_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/transparent_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_close_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_grip_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_minimize_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock_disabled.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock_disabled@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock_focus.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock_focus@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock_pressed.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/rc/window_undock_pressed@2x.png
+qrc_style.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/style.qss
 qrc_style.cpp: rsc/darktheme/style.qrc.depends
 qrc_style.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating qrc_style.cpp"
-	/usr/lib/qt6/libexec/rcc --name style --output /home/lucasso/GitHub/TrayWeather/build/qrc_style.cpp /home/lucasso/GitHub/TrayWeather/rsc/darktheme/style.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating qrc_style.cpp"
+	/usr/lib/qt6/libexec/rcc --name style --output /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_style.cpp /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/rsc/darktheme/style.qrc
 
 qrc_translations.cpp: translations.qrc
 qrc_translations.cpp: es_ES.qm
@@ -469,116 +469,116 @@ qrc_translations.cpp: it_IT.qm
 qrc_translations.cpp: hu_HU.qm
 qrc_translations.cpp: translations.qrc.depends
 qrc_translations.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating qrc_translations.cpp"
-	/usr/lib/qt6/libexec/rcc --name translations --output /home/lucasso/GitHub/TrayWeather/build/qrc_translations.cpp /home/lucasso/GitHub/TrayWeather/build/translations.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating qrc_translations.cpp"
+	/usr/lib/qt6/libexec/rcc --name translations --output /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_translations.cpp /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/translations.qrc
 
-ui_ConfigurationDialog.h: /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.ui
+ui_ConfigurationDialog.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.ui
 ui_ConfigurationDialog.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_ConfigurationDialog.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_ConfigurationDialog.h /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_ConfigurationDialog.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ConfigurationDialog.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.ui
 
-ui_AboutDialog.h: /home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.ui
+ui_AboutDialog.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.ui
 ui_AboutDialog.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_AboutDialog.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_AboutDialog.h /home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_AboutDialog.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_AboutDialog.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.ui
 
-ui_WeatherDialog.h: /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.ui
+ui_WeatherDialog.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.ui
 ui_WeatherDialog.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_WeatherDialog.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_WeatherDialog.h /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_WeatherDialog.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherDialog.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.ui
 
-ui_LocationFinderDialog.h: /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.ui
+ui_LocationFinderDialog.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.ui
 ui_LocationFinderDialog.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_LocationFinderDialog.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_LocationFinderDialog.h /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_LocationFinderDialog.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_LocationFinderDialog.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.ui
 
-ui_WeatherWidget.h: /home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.ui
+ui_WeatherWidget.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.ui
 ui_WeatherWidget.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_WeatherWidget.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_WeatherWidget.h /home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_WeatherWidget.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherWidget.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.ui
 
-ui_PollutionWidget.h: /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.ui
+ui_PollutionWidget.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.ui
 ui_PollutionWidget.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_PollutionWidget.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_PollutionWidget.h /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_PollutionWidget.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_PollutionWidget.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.ui
 
-ui_UVWidget.h: /home/lucasso/GitHub/TrayWeather/widgets/UVWidget.ui
+ui_UVWidget.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.ui
 ui_UVWidget.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_UVWidget.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_UVWidget.h /home/lucasso/GitHub/TrayWeather/widgets/UVWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_UVWidget.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_UVWidget.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.ui
 
-ui_AlertsWidget.h: /home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.ui
+ui_AlertsWidget.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.ui
 ui_AlertsWidget.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_AlertsWidget.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_AlertsWidget.h /home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_AlertsWidget.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_AlertsWidget.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.ui
 
-ui_ErrorWidget.h: /home/lucasso/GitHub/TrayWeather/widgets/ErrorWidget.ui
+ui_ErrorWidget.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/ErrorWidget.ui
 ui_ErrorWidget.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_ErrorWidget.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_ErrorWidget.h /home/lucasso/GitHub/TrayWeather/widgets/ErrorWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_ErrorWidget.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ErrorWidget.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/ErrorWidget.ui
 
-ui_CurrentWeatherWidget.h: /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.ui
+ui_CurrentWeatherWidget.h: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.ui
 ui_CurrentWeatherWidget.h: /usr/lib/qt6/libexec/uic
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ui_CurrentWeatherWidget.h"
-	/usr/lib/qt6/libexec/uic -o /home/lucasso/GitHub/TrayWeather/build/ui_CurrentWeatherWidget.h /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ui_CurrentWeatherWidget.h"
+	/usr/lib/qt6/libexec/uic -o /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_CurrentWeatherWidget.h /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.ui
 
-es_ES.qm: /home/lucasso/GitHub/TrayWeather/languages/es_ES.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating es_ES.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/es_ES.ts -qm /home/lucasso/GitHub/TrayWeather/build/es_ES.qm
+es_ES.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/es_ES.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating es_ES.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/es_ES.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/es_ES.qm
 
-ru_RU.qm: /home/lucasso/GitHub/TrayWeather/languages/ru_RU.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ru_RU.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/ru_RU.ts -qm /home/lucasso/GitHub/TrayWeather/build/ru_RU.qm
+ru_RU.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ru_RU.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ru_RU.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ru_RU.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ru_RU.qm
 
-de_DE.qm: /home/lucasso/GitHub/TrayWeather/languages/de_DE.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating de_DE.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/de_DE.ts -qm /home/lucasso/GitHub/TrayWeather/build/de_DE.qm
+de_DE.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/de_DE.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating de_DE.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/de_DE.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/de_DE.qm
 
-fr_FR.qm: /home/lucasso/GitHub/TrayWeather/languages/fr_FR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating fr_FR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/fr_FR.ts -qm /home/lucasso/GitHub/TrayWeather/build/fr_FR.qm
+fr_FR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/fr_FR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating fr_FR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/fr_FR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/fr_FR.qm
 
-zh_CN.qm: /home/lucasso/GitHub/TrayWeather/languages/zh_CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating zh_CN.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/zh_CN.ts -qm /home/lucasso/GitHub/TrayWeather/build/zh_CN.qm
+zh_CN.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating zh_CN.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/zh_CN.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/zh_CN.qm
 
-pt_BR.qm: /home/lucasso/GitHub/TrayWeather/languages/pt_BR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating pt_BR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/pt_BR.ts -qm /home/lucasso/GitHub/TrayWeather/build/pt_BR.qm
+pt_BR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pt_BR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating pt_BR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pt_BR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/pt_BR.qm
 
-uk_UA.qm: /home/lucasso/GitHub/TrayWeather/languages/uk_UA.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating uk_UA.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/uk_UA.ts -qm /home/lucasso/GitHub/TrayWeather/build/uk_UA.qm
+uk_UA.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/uk_UA.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating uk_UA.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/uk_UA.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/uk_UA.qm
 
-sl_SI.qm: /home/lucasso/GitHub/TrayWeather/languages/sl_SI.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating sl_SI.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/sl_SI.ts -qm /home/lucasso/GitHub/TrayWeather/build/sl_SI.qm
+sl_SI.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/sl_SI.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating sl_SI.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/sl_SI.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/sl_SI.qm
 
-ko_KR.qm: /home/lucasso/GitHub/TrayWeather/languages/ko_KR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ko_KR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/ko_KR.ts -qm /home/lucasso/GitHub/TrayWeather/build/ko_KR.qm
+ko_KR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ko_KR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ko_KR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/ko_KR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ko_KR.qm
 
-pl_PL.qm: /home/lucasso/GitHub/TrayWeather/languages/pl_PL.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating pl_PL.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/pl_PL.ts -qm /home/lucasso/GitHub/TrayWeather/build/pl_PL.qm
+pl_PL.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pl_PL.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating pl_PL.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/pl_PL.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/pl_PL.qm
 
-tr_TR.qm: /home/lucasso/GitHub/TrayWeather/languages/tr_TR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating tr_TR.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/tr_TR.ts -qm /home/lucasso/GitHub/TrayWeather/build/tr_TR.qm
+tr_TR.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/tr_TR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating tr_TR.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/tr_TR.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/tr_TR.qm
 
-it_IT.qm: /home/lucasso/GitHub/TrayWeather/languages/it_IT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating it_IT.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/it_IT.ts -qm /home/lucasso/GitHub/TrayWeather/build/it_IT.qm
+it_IT.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/it_IT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating it_IT.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/it_IT.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/it_IT.qm
 
-hu_HU.qm: /home/lucasso/GitHub/TrayWeather/languages/hu_HU.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating hu_HU.qm"
-	/usr/lib/qt6/bin/lrelease /home/lucasso/GitHub/TrayWeather/languages/hu_HU.ts -qm /home/lucasso/GitHub/TrayWeather/build/hu_HU.qm
+hu_HU.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/hu_HU.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating hu_HU.qm"
+	/usr/lib/qt6/bin/lrelease /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/hu_HU.ts -qm /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/hu_HU.qm
 
 TrayWeather_autogen/timestamp: /usr/lib/qt6/libexec/moc
 TrayWeather_autogen/timestamp: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Automatic MOC for target TrayWeather"
-	/usr/bin/cmake -E cmake_autogen /home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Automatic MOC for target TrayWeather"
+	/usr/bin/cmake -E cmake_autogen /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/timestamp
 
 CMakeFiles/TrayWeather.dir/codegen:
 .PHONY : CMakeFiles/TrayWeather.dir/codegen
@@ -586,296 +586,296 @@ CMakeFiles/TrayWeather.dir/codegen:
 CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
 CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: TrayWeather_autogen/mocs_compilation.cpp
 CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o -c /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/mocs_compilation.cpp
 
 CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/mocs_compilation.cpp > CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/mocs_compilation.cpp > CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/mocs_compilation.cpp -o CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/mocs_compilation.cpp -o CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
 CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o: qrc_resources.cpp
 CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o -MF CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o.d -o CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o -c /home/lucasso/GitHub/TrayWeather/build/qrc_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o -MF CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o.d -o CMakeFiles/TrayWeather.dir/qrc_resources.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_resources.cpp
 
 CMakeFiles/TrayWeather.dir/qrc_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/qrc_resources.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/build/qrc_resources.cpp > CMakeFiles/TrayWeather.dir/qrc_resources.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_resources.cpp > CMakeFiles/TrayWeather.dir/qrc_resources.cpp.i
 
 CMakeFiles/TrayWeather.dir/qrc_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/qrc_resources.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/build/qrc_resources.cpp -o CMakeFiles/TrayWeather.dir/qrc_resources.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_resources.cpp -o CMakeFiles/TrayWeather.dir/qrc_resources.cpp.s
 
 CMakeFiles/TrayWeather.dir/qrc_style.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
 CMakeFiles/TrayWeather.dir/qrc_style.cpp.o: qrc_style.cpp
 CMakeFiles/TrayWeather.dir/qrc_style.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/TrayWeather.dir/qrc_style.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/qrc_style.cpp.o -MF CMakeFiles/TrayWeather.dir/qrc_style.cpp.o.d -o CMakeFiles/TrayWeather.dir/qrc_style.cpp.o -c /home/lucasso/GitHub/TrayWeather/build/qrc_style.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/TrayWeather.dir/qrc_style.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/qrc_style.cpp.o -MF CMakeFiles/TrayWeather.dir/qrc_style.cpp.o.d -o CMakeFiles/TrayWeather.dir/qrc_style.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_style.cpp
 
 CMakeFiles/TrayWeather.dir/qrc_style.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/qrc_style.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/build/qrc_style.cpp > CMakeFiles/TrayWeather.dir/qrc_style.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_style.cpp > CMakeFiles/TrayWeather.dir/qrc_style.cpp.i
 
 CMakeFiles/TrayWeather.dir/qrc_style.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/qrc_style.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/build/qrc_style.cpp -o CMakeFiles/TrayWeather.dir/qrc_style.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_style.cpp -o CMakeFiles/TrayWeather.dir/qrc_style.cpp.s
 
 CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
 CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o: qrc_translations.cpp
 CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o -MF CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o.d -o CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o -c /home/lucasso/GitHub/TrayWeather/build/qrc_translations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o -MF CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o.d -o CMakeFiles/TrayWeather.dir/qrc_translations.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_translations.cpp
 
 CMakeFiles/TrayWeather.dir/qrc_translations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/qrc_translations.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/build/qrc_translations.cpp > CMakeFiles/TrayWeather.dir/qrc_translations.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_translations.cpp > CMakeFiles/TrayWeather.dir/qrc_translations.cpp.i
 
 CMakeFiles/TrayWeather.dir/qrc_translations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/qrc_translations.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/build/qrc_translations.cpp -o CMakeFiles/TrayWeather.dir/qrc_translations.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/qrc_translations.cpp -o CMakeFiles/TrayWeather.dir/qrc_translations.cpp.s
 
 CMakeFiles/TrayWeather.dir/Main.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Main.cpp.o: /home/lucasso/GitHub/TrayWeather/Main.cpp
+CMakeFiles/TrayWeather.dir/Main.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Main.cpp
 CMakeFiles/TrayWeather.dir/Main.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/TrayWeather.dir/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Main.cpp.o -MF CMakeFiles/TrayWeather.dir/Main.cpp.o.d -o CMakeFiles/TrayWeather.dir/Main.cpp.o -c /home/lucasso/GitHub/TrayWeather/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/TrayWeather.dir/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Main.cpp.o -MF CMakeFiles/TrayWeather.dir/Main.cpp.o.d -o CMakeFiles/TrayWeather.dir/Main.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Main.cpp
 
 CMakeFiles/TrayWeather.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Main.cpp > CMakeFiles/TrayWeather.dir/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Main.cpp > CMakeFiles/TrayWeather.dir/Main.cpp.i
 
 CMakeFiles/TrayWeather.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Main.cpp -o CMakeFiles/TrayWeather.dir/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Main.cpp -o CMakeFiles/TrayWeather.dir/Main.cpp.s
 
 CMakeFiles/TrayWeather.dir/Utils.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Utils.cpp.o: /home/lucasso/GitHub/TrayWeather/Utils.cpp
+CMakeFiles/TrayWeather.dir/Utils.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.cpp
 CMakeFiles/TrayWeather.dir/Utils.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/TrayWeather.dir/Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Utils.cpp.o -MF CMakeFiles/TrayWeather.dir/Utils.cpp.o.d -o CMakeFiles/TrayWeather.dir/Utils.cpp.o -c /home/lucasso/GitHub/TrayWeather/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/TrayWeather.dir/Utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Utils.cpp.o -MF CMakeFiles/TrayWeather.dir/Utils.cpp.o.d -o CMakeFiles/TrayWeather.dir/Utils.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.cpp
 
 CMakeFiles/TrayWeather.dir/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Utils.cpp > CMakeFiles/TrayWeather.dir/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.cpp > CMakeFiles/TrayWeather.dir/Utils.cpp.i
 
 CMakeFiles/TrayWeather.dir/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Utils.cpp -o CMakeFiles/TrayWeather.dir/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.cpp -o CMakeFiles/TrayWeather.dir/Utils.cpp.s
 
 CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o: /home/lucasso/GitHub/TrayWeather/TrayWeather.cpp
+CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.cpp
 CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o -MF CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o.d -o CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o -c /home/lucasso/GitHub/TrayWeather/TrayWeather.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o -MF CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o.d -o CMakeFiles/TrayWeather.dir/TrayWeather.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.cpp
 
 CMakeFiles/TrayWeather.dir/TrayWeather.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/TrayWeather.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/TrayWeather.cpp > CMakeFiles/TrayWeather.dir/TrayWeather.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.cpp > CMakeFiles/TrayWeather.dir/TrayWeather.cpp.i
 
 CMakeFiles/TrayWeather.dir/TrayWeather.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/TrayWeather.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/TrayWeather.cpp -o CMakeFiles/TrayWeather.dir/TrayWeather.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.cpp -o CMakeFiles/TrayWeather.dir/TrayWeather.cpp.s
 
 CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o: /home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.cpp
+CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.cpp
 CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o -c /home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.cpp
 
 CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.i
 
 CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/dialogs/AboutDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/AboutDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/AboutDialog.cpp.s
 
 CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o: /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.cpp
+CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.cpp
 CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o -c /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.cpp
 
 CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.i
 
 CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/ConfigurationDialog.cpp.s
 
 CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o: /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.cpp
+CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.cpp
 CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o -c /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.cpp
 
 CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.i
 
 CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/LocationFinderDialog.cpp.s
 
 CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o: /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.cpp
+CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.cpp
 CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o -c /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o -MF CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o.d -o CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.cpp
 
 CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.cpp > CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.i
 
 CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.cpp -o CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.s
 
 CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o: /home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.cpp
+CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.cpp
 CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o -c /home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.cpp
 
 CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.i
 
 CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/widgets/WeatherWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/WeatherWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/WeatherWidget.cpp.s
 
 CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o: /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.cpp
+CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.cpp
 CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o -c /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.cpp
 
 CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.i
 
 CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/PollutionWidget.cpp.s
 
 CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o: /home/lucasso/GitHub/TrayWeather/widgets/UVWidget.cpp
+CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.cpp
 CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o -c /home/lucasso/GitHub/TrayWeather/widgets/UVWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.cpp
 
 CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/widgets/UVWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.i
 
 CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/widgets/UVWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/UVWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/UVWidget.cpp.s
 
 CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o: /home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.cpp
+CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.cpp
 CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o -c /home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.cpp
 
 CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.i
 
 CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/widgets/AlertsWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/AlertsWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/AlertsWidget.cpp.s
 
 CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o: /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.cpp
+CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.cpp
 CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o -c /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o -MF CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o.d -o CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.cpp
 
 CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.cpp > CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.i
 
 CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.cpp -o CMakeFiles/TrayWeather.dir/widgets/CurrentWeatherWidget.cpp.s
 
 CMakeFiles/TrayWeather.dir/Provider.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Provider.cpp.o: /home/lucasso/GitHub/TrayWeather/Provider.cpp
+CMakeFiles/TrayWeather.dir/Provider.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.cpp
 CMakeFiles/TrayWeather.dir/Provider.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/TrayWeather.dir/Provider.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Provider.cpp.o -MF CMakeFiles/TrayWeather.dir/Provider.cpp.o.d -o CMakeFiles/TrayWeather.dir/Provider.cpp.o -c /home/lucasso/GitHub/TrayWeather/Provider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/TrayWeather.dir/Provider.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Provider.cpp.o -MF CMakeFiles/TrayWeather.dir/Provider.cpp.o.d -o CMakeFiles/TrayWeather.dir/Provider.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.cpp
 
 CMakeFiles/TrayWeather.dir/Provider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Provider.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Provider.cpp > CMakeFiles/TrayWeather.dir/Provider.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.cpp > CMakeFiles/TrayWeather.dir/Provider.cpp.i
 
 CMakeFiles/TrayWeather.dir/Provider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Provider.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Provider.cpp -o CMakeFiles/TrayWeather.dir/Provider.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.cpp -o CMakeFiles/TrayWeather.dir/Provider.cpp.s
 
 CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o: /home/lucasso/GitHub/TrayWeather/Providers/OWM25.cpp
+CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.cpp
 CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o -c /home/lucasso/GitHub/TrayWeather/Providers/OWM25.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.cpp
 
 CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Providers/OWM25.cpp > CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.cpp > CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.i
 
 CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Providers/OWM25.cpp -o CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.cpp -o CMakeFiles/TrayWeather.dir/Providers/OWM25.cpp.s
 
 CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o: /home/lucasso/GitHub/TrayWeather/Providers/OWM30.cpp
+CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM30.cpp
 CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o -c /home/lucasso/GitHub/TrayWeather/Providers/OWM30.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM30.cpp
 
 CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Providers/OWM30.cpp > CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM30.cpp > CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.i
 
 CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Providers/OWM30.cpp -o CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM30.cpp -o CMakeFiles/TrayWeather.dir/Providers/OWM30.cpp.s
 
 CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o: /home/lucasso/GitHub/TrayWeather/Providers/OpenMeteo.cpp
+CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OpenMeteo.cpp
 CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o -c /home/lucasso/GitHub/TrayWeather/Providers/OpenMeteo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OpenMeteo.cpp
 
 CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Providers/OpenMeteo.cpp > CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OpenMeteo.cpp > CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.i
 
 CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Providers/OpenMeteo.cpp -o CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OpenMeteo.cpp -o CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.s
 
 CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o: CMakeFiles/TrayWeather.dir/flags.make
-CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o: /home/lucasso/GitHub/TrayWeather/Providers/WeatherAPI.cpp
+CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/WeatherAPI.cpp
 CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o: CMakeFiles/TrayWeather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o -c /home/lucasso/GitHub/TrayWeather/Providers/WeatherAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o -MF CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o.d -o CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o -c /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/WeatherAPI.cpp
 
 CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/GitHub/TrayWeather/Providers/WeatherAPI.cpp > CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/WeatherAPI.cpp > CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.i
 
 CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/GitHub/TrayWeather/Providers/WeatherAPI.cpp -o CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/WeatherAPI.cpp -o CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.s
 
 # Object files for target TrayWeather
 TrayWeather_OBJECTS = \
@@ -944,7 +944,7 @@ TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2
 TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.10.2
 TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.10.2
 TrayWeather: CMakeFiles/TrayWeather.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable TrayWeather"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable TrayWeather"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TrayWeather.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -982,6 +982,6 @@ CMakeFiles/TrayWeather.dir/depend: ui_WeatherDialog.h
 CMakeFiles/TrayWeather.dir/depend: ui_WeatherWidget.h
 CMakeFiles/TrayWeather.dir/depend: uk_UA.qm
 CMakeFiles/TrayWeather.dir/depend: zh_CN.qm
-	cd /home/lucasso/GitHub/TrayWeather/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather.dir/DependInfo.cmake "--color=$(COLOR)" TrayWeather
+	cd /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather.dir/DependInfo.cmake "--color=$(COLOR)" TrayWeather
 .PHONY : CMakeFiles/TrayWeather.dir/depend
 

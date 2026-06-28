@@ -566,7 +566,7 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
     auto addLineSeriesToChart = [&forecastChart, &axisX](QAbstractSeries *ptr)
     {
       forecastChart->addSeries(ptr);
-      forecastChart->setAxisX(axisX, ptr);
+      if (ptr) ptr->attachAxis(axisX);
     };
 
     QList<QAbstractSeries*> toAddLater;
@@ -586,9 +586,9 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
 
     std::for_each(toAddLater.cbegin(), toAddLater.cend(), addLineSeriesToChart);
 
-    if(tempLine) forecastChart->setAxisY(axisYTemp, tempLine);
-    if(rainLine) forecastChart->setAxisY(axisYPrec, rainLine);
-    if(snowLine) forecastChart->setAxisY(axisYPrec, snowLine);
+	if(tempLine) tempLine->attachAxis(axisYTemp);
+	if(rainLine) rainLine->attachAxis(axisYPrec);
+	if(snowLine) snowLine->attachAxis(axisYPrec);
 
     fakeLine->setVisible(false);
     if(rainLine) rainLine->setVisible(rainMin != 0 || rainMax != 0);
@@ -636,7 +636,7 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
 
     if(oldChart)
     {
-      auto axis = qobject_cast<QDateTimeAxis *>(oldChart->axisX());
+      auto axis = qobject_cast<QDateTimeAxis *>(oldChart->axes(Qt::Horizontal).first());
       if(axis)
       {
         disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
@@ -818,7 +818,7 @@ void WeatherDialog::setAlerts(const Alerts &alerts)
 //--------------------------------------------------------------------
 bool WeatherDialog::mapsEnabled() const
 {
-  return m_tabWidget->isTabEnabled(4);
+  return m_tabWidget->indexOf(m_webpage) != -1;
 }
 
 //--------------------------------------------------------------------
@@ -842,7 +842,12 @@ void WeatherDialog::onMapsButtonPressed()
   }
   else
   {
-    m_tabWidget->setTabEnabled(4, true);
+    if (m_tabWidget->indexOf(m_webpage) == -1)
+    {
+      m_tabWidget->addTab(m_webpage, tr("Maps"));
+    }
+    
+    m_tabWidget->setCurrentWidget(m_webpage);
     loadMaps();
   }
 }
@@ -1017,8 +1022,10 @@ void WeatherDialog::setUVData(const UV &data)
     uvChart->setPlotAreaBackgroundVisible(true);
 
     uvChart->addSeries(uvLine);
-    uvChart->setAxisX(axisX, uvLine);
-    uvChart->setAxisY(axisY, uvLine);
+	if (uvLine) {
+		uvLine->attachAxis(axisX);
+		uvLine->attachAxis(axisY);
+	}
 
     connect(uvLine, SIGNAL(hovered(const QPointF &, bool)),
             this,   SLOT(onChartHover(const QPointF &, bool)));
@@ -1054,7 +1061,8 @@ void WeatherDialog::setUVData(const UV &data)
 
     if(oldChart)
     {
-      auto axis = qobject_cast<QDateTimeAxis *>(oldChart->axisX());
+      auto axes = oldChart->axes(Qt::Horizontal);
+	  auto axis = axes.isEmpty() ? nullptr : qobject_cast<QDateTimeAxis *>(axes.first());
       if(axis)
       {
         disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
@@ -1199,8 +1207,10 @@ void WeatherDialog::setPollutionData(const Pollution &data)
       if(lineSum[i] == 0) continue;
 
       forecastChart->addSeries(pollutionLine[i]);
-      forecastChart->setAxisX(axisX, pollutionLine[i]);
-      forecastChart->setAxisY(axisY, pollutionLine[i]);
+		if (pollutionLine[i]) {
+			pollutionLine[i]->attachAxis(axisX);
+			pollutionLine[i]->attachAxis(axisY);
+		}
 
       connect(pollutionLine[i], SIGNAL(hovered(const QPointF &, bool)),
               this,             SLOT(onChartHover(const QPointF &, bool)));
@@ -1242,7 +1252,8 @@ void WeatherDialog::setPollutionData(const Pollution &data)
 
     if(oldChart)
     {
-      auto axis = qobject_cast<QDateTimeAxis *>(oldChart->axisX());
+      auto axes = oldChart->axes(Qt::Horizontal);
+		auto axis = axes.isEmpty() ? nullptr : qobject_cast<QDateTimeAxis *>(axes.first());
       if(axis)
       {
         disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
@@ -1575,11 +1586,16 @@ void WeatherDialog::removeMaps()
   m_mapsButton->setText(tr("Show Maps"));
   m_mapsButton->setToolTip(tr("Show weather maps tab."));
 
-  m_tabWidget->setTabEnabled(4, false);
-  m_tabWidget->setTabText(4, "");
+  int idx = m_tabWidget->indexOf(m_webpage);
+  if (idx != -1)
+  {
+    m_tabWidget->removeTab(idx);
+  }
 
-  while(!m_tabWidget->isTabEnabled(m_tabWidget->currentIndex()))
-    m_tabWidget->setCurrentIndex(m_tabWidget->currentIndex()-1);
+  if (m_tabWidget->currentIndex() >= m_tabWidget->count())
+  {
+    m_tabWidget->setCurrentIndex(m_tabWidget->count() - 1);
+  }
 
   if(m_webpage && m_webpage->property("finished").toBool()) 
     updateMapLayerValues();

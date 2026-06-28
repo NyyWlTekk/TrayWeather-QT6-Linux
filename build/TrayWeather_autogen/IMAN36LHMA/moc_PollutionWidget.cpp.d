@@ -1,6 +1,6 @@
-/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_PollutionWidget.cpp: /home/lucasso/GitHub/TrayWeather/widgets/PollutionWidget.h \
-  /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/moc_predefs.h \
-  /home/lucasso/GitHub/TrayWeather/Utils.h \
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_PollutionWidget.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/PollutionWidget.h \
+  /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/moc_predefs.h \
+  /home/lucasso/GitHub/TrayWeather-QT6-Linux/Utils.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

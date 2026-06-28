@@ -205,8 +205,8 @@ void OpenMeteoProvider::processWeatherData(const QByteArray &contents)
       const auto windDirs     = hourly.value("wind_direction_10m").toArray();
       const auto uvIndexes    = hourly.value("uv_index").toArray();
 
-      auto hasEntry = [this](unsigned long dt) { for(auto entry: this->m_forecast) if(entry.dt == dt) return true; return false; };
-      auto hasUVEntry = [this](unsigned long dt) { for(auto entry: this->m_uv) if(entry.dt == dt) return true; return false; };
+      auto hasEntry = [this](long long dt) { for(auto entry: this->m_forecast) if(entry.dt == dt) return true; return false; };
+      auto hasUVEntry = [this](long long dt) { for(auto entry: this->m_uv) if(entry.dt == dt) return true; return false; };
 
       for(auto i = 0; i < times.count(); ++i)
       {
@@ -280,7 +280,7 @@ void OpenMeteoProvider::processPollutionData(const QByteArray &contents)
     const auto keys = jsonObj.keys();
 
     m_pollution.clear();
-    auto hasEntry = [this](unsigned long dt) { for(auto entry: this->m_pollution) if(entry.dt == dt) return true; return false; };
+    auto hasEntry = [this](long long dt) { for(auto entry: this->m_pollution) if(entry.dt == dt) return true; return false; };
 
     auto processAQIvalue = [](PollutionData &data)
     {

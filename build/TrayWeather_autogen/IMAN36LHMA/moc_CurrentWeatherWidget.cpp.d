@@ -1,6 +1,6 @@
-/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_CurrentWeatherWidget.cpp: /home/lucasso/GitHub/TrayWeather/widgets/CurrentWeatherWidget.h \
-  /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/moc_predefs.h \
-  /home/lucasso/GitHub/TrayWeather/Utils.h \
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_CurrentWeatherWidget.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/widgets/CurrentWeatherWidget.h \
+  /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/moc_predefs.h \
+  /home/lucasso/GitHub/TrayWeather-QT6-Linux/Utils.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

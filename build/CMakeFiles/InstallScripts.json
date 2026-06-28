@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/lucasso/GitHub/TrayWeather/build/cmake_install.cmake"
+		"/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

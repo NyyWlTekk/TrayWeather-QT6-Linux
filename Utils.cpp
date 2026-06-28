@@ -882,15 +882,14 @@ bool getRoamingRegistryValue()
   const std::wstring KEY_PATH = L"SOFTWARE\\Felix de las Pozas Alvarez\\TrayWeather";
   const std::wstring KEY = L"Roaming enabled";
 
-  HKEY key;
   if (RegOpenKeyExW(HKEY_CURRENT_USER, KEY_PATH.c_str(), 0, KEY_READ, &key) != ERROR_SUCCESS)
   {
     std::cout << "getRoamingRegistryValue: Cannot open the registry!" << std::endl;
     return false;
   }
 
-  DWORD type;
-  DWORD cbData;
+  DWORD type = 0;
+  DWORD cbData = 0;
   if (RegQueryValueExW(key, KEY.c_str(), NULL, &type, NULL, &cbData) != ERROR_SUCCESS)
   {
     std::cout << "getRoamingRegistryValue: Could not read registry value!" << std::endl;
@@ -933,21 +932,21 @@ void changeLanguage(const QString &lang)
   if(!s_qtTranslator.isEmpty())
   {
     qApp->removeTranslator(&s_qtTranslator);
-    s_qtTranslator.load(QString());
+    (void)s_qtTranslator.load(QString());
   }
 
   if(lang.compare("en_EN") != 0)
   {
-    s_appTranslator.load(QString(":/TrayWeather/%1.qm").arg(lang));
+    (void)s_appTranslator.load(QString(":/TrayWeather/%1.qm").arg(lang));
 
     auto lang_single = lang.split('_').first();
     if(QT_LANGUAGES.contains(lang_single, Qt::CaseInsensitive))
     {
-      s_qtTranslator.load(QString(":/TrayWeather/translations/qt_%1.qm").arg(lang_single));
+      (void)s_qtTranslator.load(QString(":/TrayWeather/translations/qt_%1.qm").arg(lang_single));
     }
     else if(QT_LANGUAGES.contains(lang, Qt::CaseInsensitive))
     {
-      s_qtTranslator.load(QString(":/TrayWeather/translations/qt_%1.qm").arg(lang));
+      (void)s_qtTranslator.load(QString(":/TrayWeather/translations/qt_%1.qm").arg(lang));
     }
   }
 

@@ -1,4 +1,4 @@
-/*
+ /*
  File: WeatherDialog.h
  Created on: 24/11/2016
  Author: Felix de las Pozas Alvarez

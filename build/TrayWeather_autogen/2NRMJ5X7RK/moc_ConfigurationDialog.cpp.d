@@ -1,6 +1,6 @@
-/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/moc_ConfigurationDialog.cpp: /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.h \
-  /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/moc_predefs.h \
-  /home/lucasso/GitHub/TrayWeather/Utils.h \
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/moc_ConfigurationDialog.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.h \
+  /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/moc_predefs.h \
+  /home/lucasso/GitHub/TrayWeather-QT6-Linux/Utils.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

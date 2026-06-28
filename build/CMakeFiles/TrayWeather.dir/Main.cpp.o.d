@@ -1,8 +1,10 @@
 CMakeFiles/TrayWeather.dir/Main.cpp.o: \
- /home/lucasso/GitHub/TrayWeather/Main.cpp /usr/include/stdc-predef.h \
- /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.h \
- /home/lucasso/GitHub/TrayWeather/Utils.h /usr/include/time.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.h \
+ /usr/include/time.h /usr/include/features.h \
+ /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -512,7 +514,7 @@ CMakeFiles/TrayWeather.dir/Main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qsslpresharedkeyauthenticator.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMetaType \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_ConfigurationDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ConfigurationDialog.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
@@ -571,10 +573,10 @@ CMakeFiles/TrayWeather.dir/Main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
- /home/lucasso/GitHub/TrayWeather/TrayWeather.h \
- /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_WeatherDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_ErrorWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/TrayWeather.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ErrorWidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWebEngineWidgets/QWebEngineView \
  /usr/include/x86_64-linux-gnu/qt6/QtWebEngineWidgets/qwebengineview.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPageLayout \
@@ -633,10 +635,10 @@ CMakeFiles/TrayWeather.dir/Main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
- /home/lucasso/GitHub/TrayWeather/Provider.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
- /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_LocationFinderDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_LocationFinderDialog.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractButton \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialogButtonBox \

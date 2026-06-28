@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucasso/GitHub/TrayWeather
+CMAKE_SOURCE_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucasso/GitHub/TrayWeather/build
+CMAKE_BINARY_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build
 
 # Utility rule file for TrayWeather_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/TrayWeather_autogen: TrayWeather_autogen/timestamp
 
 TrayWeather_autogen/timestamp: /usr/lib/qt6/libexec/moc
 TrayWeather_autogen/timestamp: CMakeFiles/TrayWeather_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/GitHub/TrayWeather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target TrayWeather"
-	/usr/bin/cmake -E cmake_autogen /home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target TrayWeather"
+	/usr/bin/cmake -E cmake_autogen /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/timestamp
 
 CMakeFiles/TrayWeather_autogen.dir/codegen:
 .PHONY : CMakeFiles/TrayWeather_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/TrayWeather_autogen.dir/clean:
 .PHONY : CMakeFiles/TrayWeather_autogen.dir/clean
 
 CMakeFiles/TrayWeather_autogen.dir/depend:
-	cd /home/lucasso/GitHub/TrayWeather/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen.dir/DependInfo.cmake "--color=$(COLOR)" TrayWeather_autogen
+	cd /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/DependInfo.cmake "--color=$(COLOR)" TrayWeather_autogen
 .PHONY : CMakeFiles/TrayWeather_autogen.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucasso/GitHub/TrayWeather
+CMAKE_SOURCE_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucasso/GitHub/TrayWeather/build
+CMAKE_BINARY_DIR = /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build
 
 # Utility rule file for TrayWeather_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/TrayWeather_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/TrayWeather_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/TrayWeather_autogen_timestamp_deps.dir/depend:
-	cd /home/lucasso/GitHub/TrayWeather/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build /home/lucasso/GitHub/TrayWeather/build/CMakeFiles/TrayWeather_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" TrayWeather_autogen_timestamp_deps
+	cd /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" TrayWeather_autogen_timestamp_deps
 .PHONY : CMakeFiles/TrayWeather_autogen_timestamp_deps.dir/depend
 

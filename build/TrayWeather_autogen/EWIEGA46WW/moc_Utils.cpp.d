@@ -1,5 +1,5 @@
-/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/moc_Utils.cpp: /home/lucasso/GitHub/TrayWeather/Utils.h \
-  /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/moc_predefs.h \
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/moc_Utils.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.h \
+  /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

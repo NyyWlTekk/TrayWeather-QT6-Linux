@@ -1,8 +1,8 @@
-/home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/moc_OWM25.cpp: /home/lucasso/GitHub/TrayWeather/Providers/OWM25.h \
-  /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/moc_predefs.h \
-  /home/lucasso/GitHub/TrayWeather/Provider.h \
-  /home/lucasso/GitHub/TrayWeather/Utils.h \
-  /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.h \
+/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/moc_OWM25.cpp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Providers/OWM25.h \
+  /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/moc_predefs.h \
+  /home/lucasso/GitHub/TrayWeather-QT6-Linux/Provider.h \
+  /home/lucasso/GitHub/TrayWeather-QT6-Linux/Utils.h \
+  /home/lucasso/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

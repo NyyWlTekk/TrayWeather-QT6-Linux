@@ -291,8 +291,15 @@ void OWM30Provider::processWeatherData(const QByteArray &contents)
 
       const auto values  = jsonObj.value("hourly").toArray();
 
-      auto hasEntry = [this](unsigned long dt) { for(auto entry: this->m_forecast) if(entry.dt == dt) return true; return false; };
-      auto hasUVEntry = [this](unsigned long dt) { for(auto entry: this->m_uv) if(entry.dt == dt) return true; return false; };
+      auto hasEntry = [this](long long dt) { 
+			for(auto entry: this->m_forecast) 
+				if(entry.dt == dt) return true; 
+			return false; 
+		};
+      auto hasUVEntry = [this](long long dt) { 
+			for(auto entry: this->m_uv) if(entry.dt == static_cast<long long>(dt)) return true; 
+			return false; 
+		};
 
       for(auto i = 0; i < values.count(); ++i)
       {
@@ -405,7 +412,7 @@ void OWM30Provider::processPollutionData(const QByteArray &contents)
     const auto jsonObj = jsonDocument.object();
     const auto values  = jsonObj.value("list").toArray();
 
-    auto hasEntry = [this](unsigned long dt) { for(auto entry: this->m_pollution) if(entry.dt == dt) return true; return false; };
+    auto hasEntry = [this](long long dt) { for(auto entry: this->m_pollution) if(entry.dt == dt) return true; return false; };
 
     for(auto i = 0; i < values.count(); ++i)
     {

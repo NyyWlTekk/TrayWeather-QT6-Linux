@@ -1,8 +1,8 @@
 CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/mocs_compilation.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/moc_Provider.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/../../../Provider.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/moc_Provider.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/../../../Provider.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
@@ -332,7 +332,7 @@ CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
  /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono.h \
  /usr/include/c++/15/ratio /usr/include/c++/15/ctime \
- /home/lucasso/GitHub/TrayWeather/Utils.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Utils.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QEnterEvent \
@@ -514,8 +514,8 @@ CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qsslpresharedkeyauthenticator.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMetaType \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
- /home/lucasso/GitHub/TrayWeather/dialogs/LocationFinderDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_LocationFinderDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/LocationFinderDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_LocationFinderDialog.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractButton \
@@ -583,19 +583,19 @@ CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmochelpers.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmocconstants.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20algorithm.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/moc_OWM25.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/OWM25.h \
- /home/lucasso/GitHub/TrayWeather/Provider.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/moc_OWM30.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/OWM30.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/moc_OpenMeteo.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/OpenMeteo.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/moc_WeatherAPI.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/WeatherAPI.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/moc_TrayWeather.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/../../../TrayWeather.h \
- /home/lucasso/GitHub/TrayWeather/dialogs/ConfigurationDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_ConfigurationDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/moc_OWM25.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/OWM25.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/Provider.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/moc_OWM30.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/OWM30.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/moc_OpenMeteo.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/OpenMeteo.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/moc_WeatherAPI.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/3FYSULA62X/../../../Providers/WeatherAPI.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/moc_TrayWeather.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/../../../TrayWeather.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/ConfigurationDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ConfigurationDialog.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QCheckBox \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcheckbox.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
@@ -625,9 +625,9 @@ CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbutton.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /home/lucasso/GitHub/TrayWeather/dialogs/WeatherDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_WeatherDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_ErrorWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/dialogs/WeatherDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_ErrorWidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWebEngineWidgets/QWebEngineView \
  /usr/include/x86_64-linux-gnu/qt6/QtWebEngineWidgets/qwebengineview.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPageLayout \
@@ -698,29 +698,29 @@ CMakeFiles/TrayWeather.dir/TrayWeather_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/moc_Utils.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/EWIEGA46WW/../../../Utils.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/moc_AboutDialog.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/AboutDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_AboutDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/moc_ConfigurationDialog.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/ConfigurationDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/moc_LocationFinderDialog.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/LocationFinderDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/moc_WeatherDialog.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/WeatherDialog.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_AlertsWidget.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/AlertsWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_AlertsWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_CurrentWeatherWidget.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/CurrentWeatherWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_CurrentWeatherWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_PollutionWidget.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/PollutionWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_PollutionWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_UVWidget.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/UVWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_UVWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/moc_WeatherWidget.cpp \
- /home/lucasso/GitHub/TrayWeather/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/WeatherWidget.h \
- /home/lucasso/GitHub/TrayWeather/build/ui_WeatherWidget.h
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/moc_Utils.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/EWIEGA46WW/../../../Utils.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/moc_AboutDialog.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/AboutDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_AboutDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/moc_ConfigurationDialog.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/ConfigurationDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/moc_LocationFinderDialog.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/LocationFinderDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/moc_WeatherDialog.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/2NRMJ5X7RK/../../../dialogs/WeatherDialog.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_AlertsWidget.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/AlertsWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_AlertsWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_CurrentWeatherWidget.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/CurrentWeatherWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_CurrentWeatherWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_PollutionWidget.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/PollutionWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_PollutionWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_UVWidget.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/UVWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_UVWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/moc_WeatherWidget.cpp \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/IMAN36LHMA/../../../widgets/WeatherWidget.h \
+ /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/ui_WeatherWidget.h
