@@ -682,6 +682,9 @@ CMakeFiles/TrayWeather.dir/dialogs/WeatherDialog.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegendMarker \
  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegendmarker.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCharts/QScatterSeries \
+ /usr/include/x86_64-linux-gnu/qt6/QtCharts/qscatterseries.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QEasingCurve \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qeasingcurve.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWebEngineCore/QWebEngineSettings \

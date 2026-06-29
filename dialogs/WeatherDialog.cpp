@@ -42,6 +42,7 @@
 #include <QtCharts/QBarSet>
 #include <QtCharts/QLegend>
 #include <QtCharts/QLegendMarker>
+#include <QtCharts/QScatterSeries>
 #include <QEasingCurve>
 #include <QWebEngineView>
 #include <QtWebEngineCore/QWebEngineSettings>
@@ -450,8 +451,11 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
     pen.setWidth(2);
     pen.setColor(QColor{90,90,235});
 
-    auto initSerie = [&](const Representation value, const QColor &color, const QString &name)
+	auto initSerie = [&](const Representation value, const QColor &color, const QString &name, QScatterSeries **scatterOut = nullptr)
     {
+      // Vždy nejdříve vynulujeme venkovní ukazatel, pokud byl předán
+      if (scatterOut) *scatterOut = nullptr;
+      
       QAbstractSeries *series = nullptr;
 
       switch(value)
@@ -463,15 +467,27 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
             pen.setColor(color);
 
             auto line = new QSplineSeries(forecastChart);
-            line->setPointsVisible(true);
+            line->setPointsVisible(false);
             line->setPen(pen);
             line->setName(name);
             line->setUseOpenGL(true);
 
+            auto scatter = new QScatterSeries(forecastChart);
+            scatter->setMarkerSize(5.0);
+            scatter->setMarkerShape(QScatterSeries::MarkerShapeCircle);
+            scatter->setPen(pen);
+            scatter->setBrush(color);
+            scatter->setUseOpenGL(true);
+
+            // Teď bezpečně uložíme
+            if (scatterOut) *scatterOut = scatter;
+
             connect(line, SIGNAL(hovered(const QPointF &, bool)),
                     this, SLOT(onChartHover(const QPointF &, bool)));
+            connect(scatter, SIGNAL(hovered(const QPointF &, bool)),
+                    this, SLOT(onChartHover(const QPointF &, bool)));
 
-            series = line;
+            series = line; 
           }
           break;
         case Representation::BARS:
@@ -506,29 +522,50 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
       return series;
     };
 
+    // Deklarace ukazatelů pro nové scatter série (tečky)
+    QScatterSeries *tempScatter = nullptr;
+    QScatterSeries *rainScatter = nullptr;
+    QScatterSeries *snowScatter = nullptr;
+
     QAbstractSeries *fakeLine = initSerie(Representation::SPLINE, Qt::black, "fake");
-    QAbstractSeries *tempLine = initSerie(m_config->tempRepr, m_config->tempReprColor, tempStr);
-    QAbstractSeries *rainLine = initSerie(m_config->rainRepr, m_config->rainReprColor, tr("Rain accumulation"));
-    QAbstractSeries *snowLine = initSerie(m_config->snowRepr, m_config->snowReprColor, tr("Snow accumulation"));
+
+    // Předáváme adresy scatter ukazatelů, aby je funkce mohla naplnit
+    QAbstractSeries *tempLine = initSerie(m_config->tempRepr, m_config->tempReprColor, tempStr, &tempScatter);
+    QAbstractSeries *rainLine = initSerie(m_config->rainRepr, m_config->rainReprColor, tr("Rain accumulation"), &rainScatter);
+    QAbstractSeries *snowLine = initSerie(m_config->snowRepr, m_config->snowReprColor, tr("Snow accumulation"), &snowScatter);
 
     double rainMin = 100, rainMax = -100;
     double snowMin = 100, snowMax = -100;
 
-    auto appendValue = [](const long long x, const double y, QAbstractSeries *ptr)
+	auto appendValue = [](const long long x, const double y, QAbstractSeries *ptr)
     {
-      if(ptr)
+      if(!ptr) return;
+
+      switch(ptr->type())
       {
-        switch(ptr->type())
-        {
-          case QAbstractSeries::SeriesTypeBar:
-            qobject_cast<QBarSeries*>(ptr)->barSets().first()->append(y);
-            break;
-          case QAbstractSeries::SeriesTypeSpline:
-            qobject_cast<QSplineSeries*>(ptr)->append(x, y);
-            break;
-          default:
-            break;
-        }
+        case QAbstractSeries::SeriesTypeBar:
+          {
+            auto barSeries = qobject_cast<QAbstractBarSeries*>(ptr);
+            if (barSeries && !barSeries->barSets().isEmpty())
+            {
+              barSeries->barSets().first()->append(y);
+            }
+          }
+          break;
+        case QAbstractSeries::SeriesTypeSpline:
+          {
+            auto splineSeries = qobject_cast<QSplineSeries*>(ptr);
+            if (splineSeries) splineSeries->append(x, y);
+          }
+          break;
+        case QAbstractSeries::SeriesTypeScatter:
+          {
+            auto scatterSeries = qobject_cast<QScatterSeries*>(ptr);
+            if (scatterSeries) scatterSeries->append(x, y);
+          }
+          break;
+        default:
+          break;
       }
     };
 
@@ -543,19 +580,23 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
 
       appendValue(msecs, 0, fakeLine);
 
+      // Teplota
       appendValue(msecs, entry.temp, tempLine);
-      
+      if (tempScatter) tempScatter->append(msecs, entry.temp); 
+
+      // Déšť
       appendValue(msecs, entry.rain, rainLine);
+      if (rainScatter) rainScatter->append(msecs, entry.rain); 
       rainMin = std::min(rainMin, entry.rain);
       rainMax = std::max(rainMax, entry.rain);
 
+      // Sníh
       appendValue(msecs, entry.snow, snowLine);
-
+      if (snowScatter) snowScatter->append(msecs, entry.snow); 
       snowMin = std::min(snowMin, entry.snow);
       snowMax = std::max(snowMax, entry.snow);
     }
-
-    auto plotAreaGradient = sunriseSunsetGradient(QDateTime::fromMSecsSinceEpoch(data.first().dt * 1000), 
+	auto plotAreaGradient = sunriseSunsetGradient(QDateTime::fromMSecsSinceEpoch(data.first().dt * 1000), 
                                                   QDateTime::fromMSecsSinceEpoch(data.last().dt * 1000));
     forecastChart->setPlotAreaBackgroundBrush(plotAreaGradient);
     forecastChart->setPlotAreaBackgroundVisible(true);
@@ -565,16 +606,20 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
     // Bar series need to be added first so they don't hide the line series.
     auto addLineSeriesToChart = [&forecastChart, &axisX](QAbstractSeries *ptr)
     {
-      forecastChart->addSeries(ptr);
-      if (ptr) ptr->attachAxis(axisX);
+      if (ptr) {
+        forecastChart->addSeries(ptr);
+        ptr->attachAxis(axisX);
+      }
     };
 
     QList<QAbstractSeries*> toAddLater;
-    for(QAbstractSeries *ptr: {fakeLine, tempLine, rainLine, snowLine})
+    
+    // Bezpečný seznam pro registraci do grafu
+    for(QAbstractSeries *ptr: std::initializer_list<QAbstractSeries*>{fakeLine, tempLine, tempScatter, rainLine, rainScatter, snowLine, snowScatter})
     {
       if(!ptr) continue;
 
-      if(qobject_cast<QSplineSeries*>(ptr))
+      if(qobject_cast<QSplineSeries*>(ptr) || qobject_cast<QScatterSeries*>(ptr))
       {
         toAddLater << ptr;
       }
@@ -586,13 +631,26 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
 
     std::for_each(toAddLater.cbegin(), toAddLater.cend(), addLineSeriesToChart);
 
-	if(tempLine) tempLine->attachAxis(axisYTemp);
-	if(rainLine) rainLine->attachAxis(axisYPrec);
-	if(snowLine) snowLine->attachAxis(axisYPrec);
+    // Připojení osy Y pro všechny platné série
+    if(tempLine) tempLine->attachAxis(axisYTemp);
+    if(tempScatter) tempScatter->attachAxis(axisYTemp);
+    
+    if(rainLine) rainLine->attachAxis(axisYPrec);
+    if(rainScatter) rainScatter->attachAxis(axisYPrec);
+    
+    if(snowLine) snowLine->attachAxis(axisYPrec);
+    if(snowScatter) snowScatter->attachAxis(axisYPrec);
 
-    fakeLine->setVisible(false);
-    if(rainLine) rainLine->setVisible(rainMin != 0 || rainMax != 0);
-    if(snowLine) snowLine->setVisible(snowMin != 0 || snowMax != 0);
+    if (fakeLine) fakeLine->setVisible(false);
+    
+    // BEZPEČNÁ KONTROLA VIDITELNOSTI: Zamezíme volání setVisible nad potenciálně nestabilními Bar objekty
+    const bool showRain = (rainMin != 0.0 || rainMax != 0.0);
+    if(rainLine) rainLine->setVisible(showRain);
+    if(rainScatter) rainScatter->setVisible(showRain);
+    
+    const bool showSnow = (snowMin != 0.0 || snowMax != 0.0);
+    if(snowLine) snowLine->setVisible(showSnow);
+    if(snowScatter) snowScatter->setVisible(showSnow);
 
     axisYPrec->setVisible((rainLine && rainLine->isVisible()) || (snowLine && snowLine->isVisible()));
 
@@ -600,7 +658,9 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
 
     for(auto marker: forecastChart->legend()->markers())
     {
-      connect(marker, SIGNAL(clicked()), this, SLOT(onLegendMarkerClicked()));
+      if (marker) {
+        connect(marker, SIGNAL(clicked()), this, SLOT(onLegendMarkerClicked()));
+      }
     }
 
     const auto scale = dpiScale();
@@ -634,25 +694,27 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
     connect(axisX, SIGNAL(rangeChanged(QDateTime, QDateTime)),
             this,  SLOT(onForecastAreaChanged(QDateTime, QDateTime)));
 
-	if(oldChart)
-	{
-		auto horizontalAxes = oldChart->axes(Qt::Horizontal);
+    if(oldChart)
+    {
+        auto horizontalAxes = oldChart->axes(Qt::Horizontal);
 
-		if (!horizontalAxes.isEmpty()) {
-			auto axis = qobject_cast<QDateTimeAxis *>(horizontalAxes.first());
-			
-			if(axis)
-			{
-				disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
-						   this, SLOT(onAreaChanged()));
+        if (!horizontalAxes.isEmpty()) {
+            auto axis = qobject_cast<QDateTimeAxis *>(horizontalAxes.first());
+            
+            if(axis)
+            {
+                disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
+                           this, SLOT(onAreaChanged()));
 
-				disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
-						   this, SLOT(onForecastAreaChanged(QDateTime, QDateTime)));
-			}
-		}
+                disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
+                           this, SLOT(onForecastAreaChanged(QDateTime, QDateTime)));
+            }
+        }
 
-		delete oldChart;
-	}
+        // Pro jistotu vymažeme vazby starého grafu před smazáním
+        oldChart->setParent(nullptr);
+        delete oldChart;
+    }
 
     onResetButtonPressed();
   }
@@ -700,8 +762,9 @@ void WeatherDialog::onTabChanged(int index)
 //--------------------------------------------------------------------
 void WeatherDialog::onChartHover(const QPointF& point, bool state)
 {
-  QLineSeries *currentLine = qobject_cast<QLineSeries *>(sender());
-  if(!currentLine) return;
+  // ZMĚNA: Přetypování na QXYSeries místo QLineSeries (zastřešuje Line, Spline i Scatter)
+  QXYSeries *currentSeries = qobject_cast<QXYSeries *>(sender());
+  if(!currentSeries) return;
 
   QChartView *currentChart = nullptr;
   switch(m_tabWidget->currentIndex())
@@ -713,6 +776,7 @@ void WeatherDialog::onChartHover(const QPointF& point, bool state)
   }
   if(!currentChart) return;
 
+  // ... (tato část zůstává stejná) ...
   if(currentChart == m_weatherChart && m_weatherTooltip)
   {
     m_weatherTooltip->hide();
@@ -739,13 +803,16 @@ void WeatherDialog::onChartHover(const QPointF& point, bool state)
   {
     int closestPoint{-1};
     QPointF distance{100, 100};
-    auto iPoint = currentChart->chart()->mapToPosition(point, currentLine);
+    // ZMĚNA: Použití currentSeries
+    auto iPoint = currentChart->chart()->mapToPosition(point, currentSeries);
 
-    if(currentLine && currentLine->count() > 0)
+    // ZMĚNA: Použití currentSeries
+    if(currentSeries && currentSeries->count() > 0)
     {
-      for(int i = 0; i < currentLine->count(); ++i)
+      for(int i = 0; i < currentSeries->count(); ++i)
       {
-        auto iPos = currentChart->chart()->mapToPosition(currentLine->at(i), currentLine);
+        // ZMĚNA: Použití currentSeries
+        auto iPos = currentChart->chart()->mapToPosition(currentSeries->at(i), currentSeries);
         auto dist = iPoint - iPos;
         if(dist.manhattanLength() < distance.manhattanLength())
         {
@@ -776,7 +843,8 @@ void WeatherDialog::onChartHover(const QPointF& point, bool state)
 
         if(tooltipWidget)
         {
-          auto pos = currentChart->mapToGlobal(currentChart->chart()->mapToPosition(currentLine->at(closestPoint), currentLine).toPoint());
+          // ZMĚNA: Použití currentSeries
+          auto pos = currentChart->mapToGlobal(currentChart->chart()->mapToPosition(currentSeries->at(closestPoint), currentSeries).toPoint());
           pos = QPoint(pos.x() - tooltipWidget->width() / 2, pos.y() - tooltipWidget->height() - 5);
           tooltipWidget->move(pos);
           tooltipWidget->show();
@@ -1624,25 +1692,28 @@ void WeatherDialog::updateAxesRanges(QChart *chart)
       {
         ++timesUsed;
 
-        auto lineSerie = qobject_cast<QLineSeries *>(serie);
-        if(lineSerie)
+        // 1. Zpracování pro QXYSeries (zahrnuje Line, Spline i Scatter)
+        if (auto xySerie = qobject_cast<QXYSeries *>(serie))
         {
-          for(int i = 0; i < lineSerie->count(); ++i)
+          for(const auto &point : xySerie->points())
           {
-            const auto value = lineSerie->points().at(i).y();
+            const auto value = point.y();
             minValue = std::min(minValue, value);
             maxValue = std::max(maxValue, value);
           }
         }
-        else
+        // 2. Zpracování pro QBarSeries (pouze pokud je to skutečně BarSeries)
+        else if (auto barSerie = qobject_cast<QBarSeries *>(serie))
         {
-          auto barSerie = qobject_cast<QBarSeries *>(serie);
-
-          for(int i = 0; i < barSerie->barSets().first()->count(); ++i)
+          // Bezpečná kontrola, zda tam jsou nějaké sety a nejsou prázdné
+          if (!barSerie->barSets().isEmpty() && barSerie->barSets().first()->count() > 0)
           {
-            const auto value = barSerie->barSets().first()->at(i);
-            minValue = std::min(minValue, value);
-            maxValue = std::max(maxValue, value);
+            for(int i = 0; i < barSerie->barSets().first()->count(); ++i)
+            {
+              const auto value = barSerie->barSets().first()->at(i);
+              minValue = std::min(minValue, value);
+              maxValue = std::max(maxValue, value);
+            }
           }
         }
       }
