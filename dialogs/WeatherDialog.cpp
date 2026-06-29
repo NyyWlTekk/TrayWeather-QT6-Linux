@@ -158,25 +158,25 @@ WeatherDialog::WeatherDialog(std::shared_ptr<WeatherProvider> provider, QWidget*
   m_alertsWidget = new AlertsWidget();
   m_tabWidget->addTab(m_alertsWidget, QIcon(), tr("Alerts"));
   m_tabWidget->setTabEnabled(5, false);
-
+  
   // Signals to slots.
-  connect(m_alertsWidget, SIGNAL(alertsSeen()), 
-          this,           SLOT(onAlertsSeen()));
-          
-  connect(m_webpage, SIGNAL(loadFinished(bool)),
-          this, SLOT(onLoadFinished(bool)));
+	connect(m_alertsWidget, &AlertsWidget::alertsSeen, 
+			this, &WeatherDialog::onAlertsSeen);
 
-  connect(m_webpage, SIGNAL(loadProgress(int)),
-          this, SLOT(onLoadProgress(int)));
+	connect(m_webpage->page(), &QWebEnginePage::loadFinished,
+			this, &WeatherDialog::onLoadFinished);
 
-  connect(m_reset, SIGNAL(clicked()),
-          this,    SLOT(onResetButtonPressed()));
+	connect(m_webpage->page(), &QWebEnginePage::loadProgress,
+			this, &WeatherDialog::onLoadProgress);
 
-  connect(m_mapsButton, SIGNAL(clicked()),
-          this,         SLOT(onMapsButtonPressed()));
+	connect(m_reset, &QPushButton::clicked, 
+			this, &WeatherDialog::onResetButtonPressed);
 
-  connect(m_tabWidget, SIGNAL(currentChanged(int)),
-          this,        SLOT(onTabChanged(int)));
+	connect(m_mapsButton, &QPushButton::clicked, 
+			this, &WeatherDialog::onMapsButtonPressed);
+
+	connect(m_tabWidget, &QTabWidget::currentChanged, 
+			this, &WeatherDialog::onTabChanged);
 
   m_reset->setVisible(false);
 
@@ -634,20 +634,25 @@ void WeatherDialog::setWeatherData(const ForecastData &current, const Forecast &
     connect(axisX, SIGNAL(rangeChanged(QDateTime, QDateTime)),
             this,  SLOT(onForecastAreaChanged(QDateTime, QDateTime)));
 
-    if(oldChart)
-    {
-      auto axis = qobject_cast<QDateTimeAxis *>(oldChart->axes(Qt::Horizontal).first());
-      if(axis)
-      {
-        disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
-                   this, SLOT(onAreaChanged()));
-        disconnect(axisX, SIGNAL(rangeChanged(QDateTime, QDateTime)),
-                this,  SLOT(onForecastAreaChanged(QDateTime, QDateTime)));
+	if(oldChart)
+	{
+		auto horizontalAxes = oldChart->axes(Qt::Horizontal);
 
-      }
+		if (!horizontalAxes.isEmpty()) {
+			auto axis = qobject_cast<QDateTimeAxis *>(horizontalAxes.first());
+			
+			if(axis)
+			{
+				disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
+						   this, SLOT(onAreaChanged()));
 
-      delete oldChart;
-    }
+				disconnect(axis, SIGNAL(rangeChanged(QDateTime, QDateTime)),
+						   this, SLOT(onForecastAreaChanged(QDateTime, QDateTime)));
+			}
+		}
+
+		delete oldChart;
+	}
 
     onResetButtonPressed();
   }

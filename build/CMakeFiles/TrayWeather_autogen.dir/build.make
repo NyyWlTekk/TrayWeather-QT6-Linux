@@ -71,7 +71,7 @@ CMakeFiles/TrayWeather_autogen: TrayWeather_autogen/timestamp
 TrayWeather_autogen/timestamp: /usr/lib/qt6/libexec/moc
 TrayWeather_autogen/timestamp: CMakeFiles/TrayWeather_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target TrayWeather"
-	/usr/bin/cmake -E cmake_autogen /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/timestamp
 
 CMakeFiles/TrayWeather_autogen.dir/codegen:

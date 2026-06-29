@@ -577,7 +577,7 @@ hu_HU.qm: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/languages/hu_HU.ts
 TrayWeather_autogen/timestamp: /usr/lib/qt6/libexec/moc
 TrayWeather_autogen/timestamp: CMakeFiles/TrayWeather.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Automatic MOC for target TrayWeather"
-	/usr/bin/cmake -E cmake_autogen /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/CMakeFiles/TrayWeather_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linux/build/TrayWeather_autogen/timestamp
 
 CMakeFiles/TrayWeather.dir/codegen:
@@ -927,6 +927,7 @@ TrayWeather: CMakeFiles/TrayWeather.dir/Providers/OpenMeteo.cpp.o
 TrayWeather: CMakeFiles/TrayWeather.dir/Providers/WeatherAPI.cpp.o
 TrayWeather: CMakeFiles/TrayWeather.dir/build.make
 TrayWeather: CMakeFiles/TrayWeather.dir/compiler_depend.ts
+TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6Test.so.6.10.2
 TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.10.2
 TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6WebEngineWidgets.so.6.10.2
 TrayWeather: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.10.2

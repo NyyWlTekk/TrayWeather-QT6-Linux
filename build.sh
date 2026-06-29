@@ -19,11 +19,11 @@ sudo apt install -y \
 echo "=== 2. Čištění starého buildu ==="
 if [ -d "build" ]; then
     echo "Mažu starý adresář build..."
-    rm -rf build
+#    rm -rf build
 fi
 
 echo "=== 3. Příprava nového buildu ==="
-mkdir build
+# mkdir build
 cd build
 
 echo "=== 4. Konfigurace projektu přes CMake ==="

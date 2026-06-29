@@ -885,6 +885,15 @@ TrayWeather_autogen/timestamp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linu
   /usr/lib/x86_64-linux-gnu/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets-none.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6QuickWidgets/Qt6QuickWidgetsVersionlessAliasTargets.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestDependencies.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets-none.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt6Test/QtTestProperties.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6WebChannel/Qt6WebChannelAdditionalTargetInfo.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6WebChannel/Qt6WebChannelConfig.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6WebChannel/Qt6WebChannelConfigVersion.cmake \
@@ -1221,6 +1230,14 @@ TrayWeather_autogen/timestamp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linu
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WebChannel/Qt6WebChannelAdditionalTargetInfo.cmake:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/QtTestProperties.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestDependencies.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WebEngineCoreTools/Qt6WebEngineCoreToolsConfig.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake:
@@ -1301,6 +1318,8 @@ TrayWeather_autogen/timestamp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linu
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersion.cmake:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake:
@@ -1354,6 +1373,8 @@ TrayWeather_autogen/timestamp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linu
 /usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-none.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets-none.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake:
 
@@ -1849,6 +1870,8 @@ TrayWeather_autogen/timestamp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linu
 
 /usr/include/c++/15/optional:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake:
+
 /usr/include/c++/15/bits/predefined_ops.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake:
@@ -1982,6 +2005,8 @@ TrayWeather_autogen/timestamp: /home/lucasso/Desktop/GitHub/TrayWeather-QT6-Linu
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend:
 
 /usr/include/assert.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfig.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -2644,6 +2669,8 @@ CMakeFiles/4.3.4/CMakeSystem.cmake:
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersion.cmake:
 
 /usr/include/wchar.h:
 
